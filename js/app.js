@@ -19,10 +19,7 @@
 	$('body').append(startEnd.end);
 	//hide the two so they appear at certain times
 	$('#start, #finish').hide();
-})();
 
-
-	(function() {
 		//show the start page
 		$('#start').show();
 		//when clicking the button on the start page
@@ -50,7 +47,6 @@
 		person.eq(randomPlayer % person.length).addClass('active');
 			playGame();
 		});
-	})();
 
 
 		//Appending players name to the page by what the user gives us
@@ -228,7 +224,7 @@
 		}
 	};
 
-
+}());
 
 
 
